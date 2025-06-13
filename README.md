@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+📄 This repository includes the README in both **English** and **Japanese**.  
+日本語版は下に記載しています。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Travel List App
 
-## Available Scripts
+A minimalist travel packing list application built using React.js. This project allows users to create and manage a list of items they need to pack before traveling. The app provides a simple and intuitive interface for adding items, marking them as packed, and removing them when necessary.
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+Access the deployed application here:  
+**https://travel-list-app-react-js.vercel.app/**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✅ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Add new items to the travel list with a specified quantity  
+- Mark items as packed or unpacked  
+- Remove items from the list  
+- View summary statistics of packed vs. total items  
+- Built with functional components and React hooks
 
-### `npm test`
+## 🛠 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js – Frontend framework  
+- JavaScript (ES6+) – Logic and interactivity  
+- CSS – Styling and responsive layout  
+- Vite – Development server and build tool  
+- Vercel – Deployment platform
 
-### `npm run build`
+## 🎯 Learning Objectives
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was created as a hands-on exercise in React development. Key takeaways include:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Understanding React component structure and props management  
+- Managing application state using the `useState` hook  
+- Handling user input and form submissions  
+- Updating UI based on dynamic state changes  
+- Using conditional rendering and array methods in JSX  
+- Structuring a modular and maintainable frontend project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚠️ Limitations
 
-### `npm run eject`
+- The application does not currently persist data. All items are cleared on page refresh.  
+- No backend or database integration  
+- Editing items after creation is not supported
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# トラベルリストアプリ
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React.js を使用して構築されたミニマルな旅行パッキングリストアプリです。ユーザーは旅行前に必要な持ち物を追加・管理し、「パック済み」にマークしたり、リストから削除したりすることができます。直感的で使いやすいインターフェースが特徴です。
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 デモサイト
 
-## Learn More
+デプロイ済みのアプリはこちらからご利用いただけます：  
+**https://travel-list-app-react-js.vercel.app/**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ✅ 主な機能
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 指定した数量で持ち物を追加  
+- 持ち物を「パック済み」または「未パック」に切り替え  
+- リストからアイテムを削除  
+- パック済みアイテム数と合計アイテム数の統計表示  
+- React の関数コンポーネントとフック（Hooks）を活用した実装
 
-### Code Splitting
+## 🛠 使用技術
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React.js – フロントエンドフレームワーク  
+- JavaScript (ES6+) – ロジックおよびインタラクションの実装  
+- CSS – スタイリングとレスポンシブデザイン  
+- Vite – 開発サーバーとビルドツール  
+- Vercel – デプロイメントプラットフォーム
 
-### Analyzing the Bundle Size
+## 🎯 学習目的
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+このプロジェクトは、React 開発の実践的なトレーニングを目的として作成されました。以下のような技術的スキルの習得に役立ちます：
 
-### Making a Progressive Web App
+- React のコンポーネント構造と props の管理  
+- `useState` フックを使用した状態管理  
+- ユーザー入力やフォームのハンドリング  
+- 状態の変化に基づく UI の更新  
+- JSX 内での条件付きレンダリングや配列操作（`.map()`、`.filter()` など）  
+- 保守性の高いフロントエンドアーキテクチャの設計
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ⚠️ 現在の制限事項
 
-### Advanced Configuration
+- データの永続化は未対応です。ページを更新するとリストはリセットされます。  
+- バックエンドやデータベースとの連携は行っていません。  
+- 既存のアイテムの編集機能は未実装です。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 👤 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Aman Shrikhande**  
+- GitHub: [@amanshrikhande](https://github.com/amanshrikhande)  
+- Email: amanshrikhande7909@gmail.com
